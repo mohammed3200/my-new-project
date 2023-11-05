@@ -7,73 +7,69 @@ Copy the template, paste it to your GitHub README and edit! -->
 Final project for the Building AI course
 
 ## Summary
-
-Develop a CNN-based facial recognition system that can recognize and verify individuals based on their facial features. This technology can be used for identity verification, access control, or personalized user experiences.
-
+This project aims to develop an AI-powered chatbot for mental health support. The chatbot will provide users with a safe and confidential environment to discuss their mental health concerns, offer guidance and resources, and recommend professional help if necessary.
 
 ## Background
+Mental health issues are prevalent worldwide, and many people hesitate to seek help due to various reasons such as stigma, lack of accessibility, and privacy concerns. This project addresses these problems by providing an anonymous and easily accessible platform where individuals can receive support and information about mental health.
 
-Trying to understand human feelings through directed expression
+The motivation behind this project stems from the increasing need for accessible mental health resources, particularly in today's fast-paced and digitally connected world. By leveraging AI and natural language processing techniques, the chatbot can provide instant support, personalized recommendations, and relevant resources to individuals in need.
 
-This is how you make a list, if you need one:
-* Trying to understand when a person is lying helps in resolving issues
-* Helper for a schizophrenic patient
+Some of the problems this project aims to solve:
 
+Lack of accessibility to mental health support
+Stigma and hesitancy surrounding seeking help
+Limited availability of mental health resources
+How is it used?
+Users can interact with the chatbot through a web or mobile interface. The chatbot will engage in conversations with users, asking questions to understand their concerns and providing empathetic responses. It will offer coping strategies, recommend self-help resources, and guide users towards seeking professional help if necessary.
 
+The solution can be used in various situations, including when individuals are experiencing stress, anxiety, depression, or other mental health challenges. The chatbot can be utilized by people of different age groups and backgrounds, providing tailored support based on their specific needs and concerns.
 
-## How is it used?
+# Here is an example of how the chatbot can be used:
 
-After training, the model will be saved as emotion_recognition_model.h5, which can be loaded later for prediction or evaluation.
+User visits the chatbot platform and initiates a conversation.
+The chatbot greets the user and asks about their current feelings or concerns.
+Based on the user's response, the chatbot engages in a dialogue, asking follow-up questions to gain a deeper understanding of the user's situation.
+The chatbot provides emotional support, suggests coping strategies, and offers relevant resources such as articles, videos, or guided exercises.
+If the chatbot identifies a more serious mental health issue, it recommends seeking professional help and provides information on local mental health services or helplines.
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+![bot](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRgVFRUYGBgYGBgYGBgSGBgYEhgVGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NzEBDAwMEA8QGhISGjQhISExMTQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MT80NDQxP//AABEIALcBEwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EADwQAAIBAgQDBgQDBQgDAAAAAAECAAMRBBIhMQVBUQYTImFxgTKRobFCwdFSYnLh8AcUFSMzgpKyFtLx/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAgEQEBAQEBAAMBAAMBAAAAAAAAARECIQMSMUETMnEi/9oADAMBAAIRAxEAPwD0eISREa0sklMmpg5JTFSlFkXEcGM0SlaoJTqiXnEp1xHCqqwg4VoO0aKcSQEZZWxGKscq77E/kP1jtTJo9SoF3MekhfYG3Xl9YNMMFXOx8W9uQH6yH991veTq/rGh/hbkXGsrVcI6br8pcwPF9LGaYxQcbfOH2oyOaVoQNNXHcNBGZBY9Osx720Mf6PwdWhkaVFaFV4rDlXVaEBlanUlhTJqkmgGhzAVIQK7SLROZFmlxFOhlqm0pZoam8pGrgaRZ5FTGeIzM8QeQjgQGiK0KrQIhEERwfNFIRQMeKTIjWiViEQkiIxENBw0e8haPClKi8qVxLbypXMZqrLImEaQJgmq2LrZF8zoPLqZVwNEsb+nt0EFjqmZ7chp+Z/SE/vGVAPcxWnJ4sYzG6ZdNOkxKuJsZDE17mUnYmTabSw+Msd50XDsfYi+onFppNXA4iLQ9LoOrrpMTjmBt/mKP4o3BcZ5zbxa5qZv01lSizXGBpNWgqi5SR0NolMvGcq4jy1TeZyNLFN5Ni5V8GCqRI8i7Qw9VnMCWhKhgSZUR1T3k0aDEkkpC9TMkYOkYWSaNo4EkREBAyUQqCRAhAIjhRR7R4HqxGkA8WaLFakYpHNIu8E2pkyJME1SDNSOQaM5lOqYRqkC5gehNISTNB5o8Trl+H186Bzuxcn1zm8M5JmZwmi1IVEqGx76qQDyVnJXXmD8XvNQi8zq4rVVldxaWqsr1BEatUB3lnCPaBraCQpPaBur4TibMJ3VB86eo+s8vwdYzs+z/ABEWyk/OBMzHpZ2gBNHtPlRlYbMQvuzafc/SZ4Wa83Yx68qSmGRoECTBjwtW0eTLSqrQgaLFahUgiIRjIxxNqIEIqxlWHRYy0SkIe0gghREaJEkoikgYBICSAkQZK8SpUoo0UQ1DPEXlXPFnj+pfYc1JBqkAzwfeSsGju0EzyBqQTvDC0TvIxeVmeIPDCvQrPIZoJnkQ8eJ+zmuJ8SonFmg2pZQDf4S9tU9bWl1Rl53Hnv8APnPLu0tN6OKqi5ulQup8mbOh+s9KwGIFVEqDYoCPUjX5bTG/ron4NVEpuZbxNQKLmYz49mDZE+EE3qHLewvoACftJUPVN+UgBrMfAcSrO5DIAoJF8rfPMTOgRNLj+UANRptILxa5ZKAzugJJvlp6bjNuTa50B2mljeHOaSsuxVSbWN1a/wBNLSjwLhdOjUzhSX0F3N7ZdhbbSAafEkrvhVzqQ6YjD3Wx0BqqrWv0DTUYTbq4oPRYm1yQZh1Jpx+MPlvsRJj5oMmNeaYy0YNJq0BeTDQGikyN5G8kIHqaGHQwCw6CBjAyYMGJIRAQGK8YR4j04MJeCAkwYHErxo14ojUBUjF5WDxw80xAzGRMYNGZogiakZjGitAAuZEtJNAuYJpi8StAkx1MeJ1yvbzgL1rV6Sl2C5XVASxW91YAb2J/q0D2KrsKBpuCpR2WzAggHWxB23nbI05/jFVaeIRSLd8ps3Iup1U9DYi3vMuuf63+Pr+VZxAvAILCHS9rH2MgBymbdUZIWmIVlg6d9/Pn0gHZ8HqB8E1/iQkDrbRh+cqqUdbiwby2lfszjQjOrgsjqCQupzC40HoSIbEYFkfMl8h2vuL8jALOHY5SD1g6kssLIPOU6rTXn8c3y/oLGLNBs0jmlsxg0lmgc8StALKtCCAQwwgcFWWKcqoYdGgawIryIMcGIxFjxlkgIjwhHvGjQOQ94o0UZscmJTB3iEtmPmjwYMleKhK0aK8izRAKpKlQyw7SrWMAgXjq0AzxhUgWLitMHtvhc2HFQNlei6up638NvqD7TXR+kyO32IRMGFJJd6gOhFlRdCCN7k/9TJ6vjTjn3S7PcYTE076B10deYPUeRluqtjeeU8Mxj0s1RGswYehGtwRzE7jgvaWnXGVvA/7J+E/wn8pk6G/YESBESnkecfuABt7RAXAV8jgjcH2M7DE4l3oqwRUF9mbxMOoFpxWHvm0Fpv4Z7IXdgEQFmJ2VVFyfpALuJf4R0H3lCs0PVc7nZhcHkRKlVpvz5HJ371QWaQLzQ4Pw41nufgXf94/s/rOsemrCzIrDYCwP0O0XXWVXPx3qa4bPLVPCsVB5nYHa3nFxOn3LtUq08iX8IUgrfkNDvGwPGEOZ6S5yFtlAA15acvWT13MVz8XvouAwtR3qJYXQrYX8RDA39wVPsRJjb03nP8AGPpYipWqZGSq2ZrOboVGgRSOlhbbSaWJxAYFQDa5uGsSb6620O8J14fXxzWiP5+x2MsU5zvZlHLuj1HKJmRVbKVVmZWUK25yi4IO1x5zoKbf0NpUup65+o8cSGaMGjStLJgQKPDAyaqFaPljiSjViOWNJxRaMc3HAitJhZsx00cSYSLLAaheQcybCCeBaE7SrUlh4FkJ2BPpJsOVSqRqaMxsP/k0U4azat4R57/yh0VKY0seg5X8+si9Y155t/U8DhQgzNvyv+I/pPOf7ScOQKbc1eoD6PlYG/qr/ADE7bEcQLHUzK7QYKnXRhUJ+DwEcnUnQ+oP0metZMeU0D4GHmPtA0TZh56S8+GCK4LHMGUBSNbG+p6ShUQg/I6ecSm9wrtNWokK/+Yu1m+Iejc/edvw3jlGtorjNzRjZwfz9p5iPiVvO/wBL/lDcIwne1FU6geJr9By9zYRXyaJ69ROORKihwSvPIQGt1F9Paa3aHhrYrBOuBqBixXOrmzMqnMUv+FiQN9CBbnK3Z3j9FAKdalTUDQOqILfxgD6idMe0eCTaqo/gRvyXWZTr3dXef5ij2ZxRrrUw1VGVqLIua1irPTR1v56lT6L1hH4VU7xabaZtn/CV5keflDf+aYNCTnJ62RtR6kCVv7Q8SHoYYgEBizgMLMBlFrjkfFNP80nNs9T/AIvt1Nddh8MqIEUWA+fmT5zj+12K4ktZDhabikinM1MI5djbdDc2Hp1nMYLi9emPBWceWYsv/FriamG7dYhPjCOB1BRvmun0mV+SdT3xpPjvN89ZHHe1Fd6Zp4mktwCRnRkYMRYEqdD8py3BKtTOEpFs7tlUISCSTYC4lvtJxh8TWzOfjdFAGyoDoo8oDsnj3pVDVp2zgEAlQ1s2+/lpFLs9VZld1xmrWw5p0yHqsEGdwLjOTfTy1lHii4s0h/dqLl3PiYAZlB2AJ0Vj85bPbFyD3lBGbKbMLrrbQka39JX7J9qKtNGQlqikkscuuYm58PnfWac22/vjKzP4h2V4VxGk/cVKDIjln717FgdC2Uhrlj5jqeU7dsE6DVSFGg9NhOfxHa9mZApAyEElx0Ui1zsx+14qfaHEVmC02UnMA+a7JkJs+o0vbYXm0uMuudboMeCVoVWmjDFimIWCRoTNJqomI8ipk7wM14o0UQYVpMRpITdikJWx+Op0Uz1HCr57k9ANyfSPja7IjOqF2UXCLuTPOaOFxPEMTl1L87ghKSX6cvTcyOusVzz9mziu3ag2p0Mw5Go+W/8AtUfnAD+0R1+LDUyPJ2B+ZBnVDsTh6FLKTdyLFzbP526e05DiHZOgL5apHqL3+Uztt/rec8zzG1gO3+BqeGvTeif2gA6fNbMB7ToVdWVamErU6ia3CeLMP4r3Vh0IPtPJMR2eYXs6/wC64mfhsRXwtUtSfI4tcobow6MNiPWLT+sezYvFF9fYzNrPpMTgXa1KxtUARz8aj4Cds6X+o5TcxFPmNQdjFVM2re8kHuLGEZZAoJJue4z2fWt4lbI/W11Ycgeh13nM4/gWIz/Bm0AFragC09EymPlIGultddoeh5XSw7FjTIs1ytm08XIflDcKx5oMwZbg6MNmBUnY/PSdpiOzaYioauZqQNmZyQVc/upa99BC1OCYKmS3dl2JuWrMSC3OyDTU663hZs9EqhRxKVQCrg8/3vQjcRntuT95bq10cIFRFK3ANNFRiDbQlQLgW09THo4Kq9gKTtfnay28ydJy9ce+N+evPVvsfwkYnEohtkTxvYX8K7L7mw+c6v8AtLqDPQQbKjn5kAf9YLstWpYXPTZstRgHfRiAgJVfFa1hqT0vKXb2rmxCga5aa/Msx/SXefrx/wBKXenJ8TxjIgK2uWA8WotY3+0rf4gxBug1B1U6X9IbE4UVAATaxv8AS0alw7Ltr6GZXf42jJSkzMtxoudj7ISPrLnZ/D6Pc21AHsP5y2aDC9uhGvnI0sM67LvrFe7OfR9Za00pWuSbgKx+krcFqdymV/jNjlXU3JJt9oZKDlGuMtxlBPW4J+klgMGSuYWA/a3YzT4bevWPyf8AkLDvTxNZ8PXHdgC4ZDd7gXBNxbUH6zqcHisNhaSUke2pCF7Xdyb5SVG51A87TDbBIpzC+Y7m+p23+QlXumV8+YkC2UN+FhzWw199p1Rg9CroyGzC3Q8iOoPOJKkxsBjajoM7aC+Ucx539tvKWhWmkrKz1qrVhEqzKWtCrWgTVWpJipM1asIK0DxfzxSj3sURKsmJCODN2KOIrhELnkCfU2lrgFBcNRNR/wDVqnO5O9zsvoBYfOYHF6xzqh+Gyn1u9j9F+sDxjiDvoDpMur6245yaNxzjzVHyIecwnJJ39+ZMahTKksehgaFW8yrWRHFiw1nGObs7dTOx4mCUa29pxQaxykWOsIa1ieEsAHoN3gABJp2Dq1rkFb308p0vZftJm/yK3hcaDNpfy15+U4vvXRsyMyt1QkH6biX8PSr411Wygpq1QLlyjTViNCegGsA9NZQZA0TK2GpMiKuZnygDM/xG3M2llcVbcfT9IjJUYSyqjIzOBltax2JOlvOCTiC3tkY21a1hZeuvOVKnHqGLtTw7Am1wtmVgObNcQDn+O8ZqYeopBV0dbBG8ORkP4WA5gje+0v0uHVK6JVr2oK4Jyg5qlr6WUgWJGuu1/aV8DxVe/emUXOjHK9RQWDLcNlvoumoO5BlvEY1mJNyxPM/1rAOP4/i3p1mRLoqEFCvxZbeE5uu/vO54Z2karh0c/GRZ+QzroSPW1/ec5xEI5s652XUcip3tfl6Te7O0KaU875bu2YCwOUAACwHW32i2fkOy/rN4zWd2V1Lo9mCOgstiLHMSLFNriaXE2DlWzZvAi+fgFtZuHF03GUpnHmNJWfg6ubrdByGhUegi6lsyK46kvrmzRLE5eVt/O/6SYQgaib6dnqovlKve2gOU6eun1lHH8PqpbPTcDXW11/5DSZXnI0nW1nNtaXwbSklMsQq6liAANySdAPOdLxLgr0FXOu4AzKbqWtrrI/x/Y73OWPxasxRFAuSvKwsP1MPhKeRAvlr6xnp3tflb6bSyAAJt8fH1mMeuvtVasmt7yvQHePr8K/aSx1WwtzP2ljhdCyXtq32m0iOrkXA9o/eyBpyJE0ZLArQi4iULxw8Q1qJiIQV5kh5MVDA9a/fRpmd+esUQ1sExiZEAk2HOZz8aRMQ9Nx8HiA65VBye7EfMzW9SMOeb0p8fdVr2zeJaaZx0OYuB/wASPeBoYhHdVHiuwFl3NzsJyuPq1KtarUF2Kgu5HTMAT7X+QM2+xmDZs+IOguadO/7bDxv6Ih+bjpMb766ZMXndWdgotbxWF8oRrgAE6nQH5TLWkUJvsOflKrcYY13dNUJyqOiJ4U+mvvGx/FlAsOY1U8vNT+UWKFeq76U0Z/MaL7sdJVbsyL5672/cp8/Vj+Q95v4LiJq00ZFuSoFlFkVhobnYaywnDcxzVTnPJR/pj/294g5zD8GFTRF7ulzb8b/wk6n1Ok6HCYVKShEUKo+ZPUnmfOXXEFliplHSncxWljDDnFAz8RwLvWu9VgpBUrRuuZSb5Wa9zCLhaWHXJQRUB+Irq7erHUzSd+Q3ME1JU8Tn5bnylE5LjeEQt3rkIwAs/PTqPxcxaa/B8HTairs5dm8QemABlO3ha9iJk9tqLVwjop8AK5eZBsQfax085R4BxTuqPdOcrIzaN0JuPuYjdEOGHOzM+YE6ZlQNa2xIGvOVX4gtPEphymjqCHB5kkEWPoOfOCXHs/wvf+EXmHxQrXdERy1VSwQJbNmts1zoLgX6WMIHoeFIIva1iym/VWKn6iXkMxuCVDTpLTqMXe92a2pcnU6choL+U10MCXaVS01MJiJiIZbw7xhsphKRcP3aZ1Nw2Rc4Nt7w/EaIqUXFgfAxF/2gCQZUw73mrh3FvvA3jWDxjEMtWwdLh+Wx0YeRFjeS/wAUp6rnXMPwk2YX9Zo9oOF03d1YEWLBXQlXAvtccvLaciezj0nLgrVUixWozK1ut7HUQC/XxC5ruwAPX7AczO1ODyeD9nT+c4HheBvUpGsQwpE5EUeBSzZySfxa20tynqPxqH57E+fKVzfUdzxkNRgXozYahAth5bNkNRgzSmw+HgXoQDLNONkmg1CQahAapWilruYog6DhWHzHOduX5mB4zwqhWbO6DPawdfDUsNrkb+95rlQiADmPkJSfWT1dur5mTHK8N7PnDs5V1qB7A94pQgC+lxcHfawljH4RkovTw6gBaZp0hmtq5u7m+xJLfSblQSu6Q2nnuvOE7M4ldkX2dZscP4bRAGekC437yza+XL5TrnQBWPlYe85Liue4yGzXFjy15EcxEpsaW00HQbRiZWpuVsGIJ6jQE/lDXvCzCll9hmaRLxmEdMOznwj35CSo2a8vKMotz/OAp4Vc7KXsECkk2GZmF1VBf2v6wteoBtqY5MIzVQlzzmbUqM51hqhG7H25QD1ukDDqYa/hJGvv9pwmJ4kExAuiMiVrEMi3OR7HXfUCd27k6zmuMcLVi72VW3LOTk0t4iL72G8QdrWxdIcyPLM1vlOY7U41ERGphQBUUv4d11uDz3yn2haFFWpBlZqtQm3gstIgHcEg6W84BsERWpo9x3gewzW+Bb2uBqTe1tOesA3uFvTZO8p2KuzAHW5Aync62BJH+2bFJ9Jh4VVQKigBVFgBsB5TSpPANJWlik2spUnlyjGTXwpl5XsCOszaD2EuIdIBx3Gv9R/4jMfEqbTS4lUzOx6kmUa20RsM+Fved72fxGZMvlecJiV1nS9mMT4gI4VdWyiQKx3a0hmmjEu7kDRhA8KmsAoth4NqE1Ql5B6cAyO5iml3EUAJiq12MDmiikNEGkCIooKVse9kA66mc6Rd7/s/c/0Yoo+P9kd/61Gv4hb0+8JhapJKn4h8iP1iij7/AFPw/jRo4QkBm0HQbn9JrYbC6dANdOkUUTVyfbdQ1qtK4eivXKrKpvZhztYkep6ya40MqsNmUMPQi8aKScCBJj2iiiBC3SYvadGFAlDbxKDrrlOh/KKKAP2P4m393ZDqVqEKTvZgG1PqTNOvhe9KmoAchzCxIs3W4Iv6bRRQCbGxlinWiigFylXmhQqxRRk1cJVvoZcx9bJSPU6D5axooBxVRrmCqxRRGx8Yusu8Bq2cCKKAdvVfY9QDA540U1n4w6/aIjS3TMUUdKLKCMwiikqhrRRRQD//2Q==)
 
 This is how you create code examples:
 ```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+import numpy as np
+import keras
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from keras.preprocessing.image import ImageDataGenerator
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
 ```
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+The data used by the chatbot can come from various sources, including publicly available mental health resources, trusted articles, and professional guidelines. Additionally, the chatbot can be trained on anonymized and aggregated data from user interactions to improve its responses and recommendations.The AI methods employed in this project include natural language processing (NLP) techniques, sentiment analysis, and machine learning algorithms. These methods enable the chatbot to understand and interpret user input, identify emotions, and provide appropriate responses.
+AI tools and libraries that can be utilized:* Python* Natural Language Toolkit (NLTK)* TensorFlow* Keras* scikit-learn
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-## Challenges
-
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+## ChallengesSome of the challenges that need to be considered when deploying a mental health chatbot include:
+* 1. Privacy and security: Ensuring that user data is securely stored and protected to maintain confidentiality and trust.
+* 2. Ethical considerations: Handling sensitive information and providing accurate advice without causing harm or relying solely on AI algorithms.
+* 3. Limitations of AI: Recognizing that the chatbot's responses might not always be perfect and that human intervention or escalation to a mental health professional may be necessary in certain situations.
+* 4. Accessibility: Ensuring that the chatbot is accessible to a diverse range of users, including those with disabilities or language barriers.
 
 ## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+To further develop this project and make it more comprehensive, the following steps can be taken:
+     ** 1. Expand the chatbot's knowledge base: Continuously update the chatbot with the latest research, mental health resources, and evidence-based practices.
+     ** 2. Improve emotional intelligence: Enhance the chatbot's ability to understand and respond empathetically to a wide range of user emotions and concerns.
+     ** 3. Integration with existing mental health services: Collaborate with mental health organizations to integrate the chatbot as a part of their services and provide seamless referrals when necessary.
+     ** 4. Continuous user feedback and evaluation: Collect feedback from users to improve the chatbot's performance and user experience. Conduct regular evaluations to measure the impact and effectiveness of the chatbot in supporting mental health.Skills and assistance needed to move forward with the project:
+     1. Expertise in natural language processing and machine learning techniques.
+     2. Collaboration with mental health professionals to ensure the accuracy and effectiveness of the chatbot's responses.
+     3. User experience (UX) design skills to create an intuitive and user-friendly interface.
+     4. Ethical considerations and consultation with legal experts to ensure compliance with data privacy and security regulations.
 
 ## Acknowledgments
+* The Building AI course by Reaktor Innovations and University of Helsinki for providing the knowledge and guidance for this project.*
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* [list here the sources of inspiration](https://labs.google/) 
+
