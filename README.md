@@ -38,11 +38,9 @@ Once you upload an image to your repository, you can link link to it like this (
 
 This is how you create code examples:
 ```
-import numpy as np
-import keras
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
-from keras.preprocessing.image import ImageDataGenerator
+pip install keras
+pip install layers
+pip install Keras-Preprocessing
 
 ```
 
@@ -59,14 +57,14 @@ AI tools and libraries that can be utilized:* Python* Natural Language Toolkit (
 
 ## What next?
 To further develop this project and make it more comprehensive, the following steps can be taken:
-     ** 1. Expand the chatbot's knowledge base: Continuously update the chatbot with the latest research, mental health resources, and evidence-based practices.
-     ** 2. Improve emotional intelligence: Enhance the chatbot's ability to understand and respond empathetically to a wide range of user emotions and concerns.
-     ** 3. Integration with existing mental health services: Collaborate with mental health organizations to integrate the chatbot as a part of their services and provide seamless referrals when necessary.
-     ** 4. Continuous user feedback and evaluation: Collect feedback from users to improve the chatbot's performance and user experience. Conduct regular evaluations to measure the impact and effectiveness of the chatbot in supporting mental health.Skills and assistance needed to move forward with the project:
-     1. Expertise in natural language processing and machine learning techniques.
-     2. Collaboration with mental health professionals to ensure the accuracy and effectiveness of the chatbot's responses.
-     3. User experience (UX) design skills to create an intuitive and user-friendly interface.
-     4. Ethical considerations and consultation with legal experts to ensure compliance with data privacy and security regulations.
+     * 1. Expand the chatbot's knowledge base: Continuously update the chatbot with the latest research, mental health resources, and evidence-based practices.
+     * 2. Improve emotional intelligence: Enhance the chatbot's ability to understand and respond empathetically to a wide range of user emotions and concerns.
+     * 3. Integration with existing mental health services: Collaborate with mental health organizations to integrate the chatbot as a part of their services and provide seamless referrals when necessary.
+     * 4. Continuous user feedback and evaluation: Collect feedback from users to improve the chatbot's performance and user experience. Conduct regular evaluations to measure the impact and effectiveness of the chatbot in supporting mental health.Skills and assistance needed to move forward with the project:
+     * 1. Expertise in natural language processing and machine learning techniques.
+     * 2. Collaboration with mental health professionals to ensure the accuracy and effectiveness of the chatbot's responses.
+     * 3. User experience (UX) design skills to create an intuitive and user-friendly interface.
+     * 4. Ethical considerations and consultation with legal experts to ensure compliance with data privacy and security regulations.
 
 ## Acknowledgments
 * The Building AI course by Reaktor Innovations and University of Helsinki for providing the knowledge and guidance for this project.*
